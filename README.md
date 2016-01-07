@@ -47,8 +47,10 @@ Alternatively, you can install using native git submodules:
 
 doctrine 2
 ----------------
-$ php vendor/doctrine/doctrine-module/bin/doctrine-module.php orm:schema-tool:update --dump-sql
-$ php vendor/doctrine/doctrine-module/bin/doctrine-module.php orm:schema-tool:update --force
+
+	$ php vendor/doctrine/doctrine-module/bin/doctrine-module.php orm:schema-tool:update --dump-sql
+	
+	$ php vendor/doctrine/doctrine-module/bin/doctrine-module.php orm:schema-tool:update --force
 
 Web Server Setup
 ----------------
