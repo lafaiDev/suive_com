@@ -45,8 +45,15 @@ Alternatively, you can install using native git submodules:
 
     git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
 
+doctrine 2
+----------------
+$ php vendor/doctrine/doctrine-module/bin/doctrine-module.php orm:schema-tool:update --dump-sql
+$ php vendor/doctrine/doctrine-module/bin/doctrine-module.php orm:schema-tool:update --force
+
 Web Server Setup
 ----------------
+
+
 
 ### PHP CLI Server
 
