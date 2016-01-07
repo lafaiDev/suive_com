@@ -17,6 +17,7 @@
     },
     "require-dev" : {
     "zendframework/zend-developer-tools" : "=0.0.2",
-    "los/loslog" : "~1.0"
+    "los/loslog" : "~1.0",
+    "jokkedk/zfdebug": "1.6.2"
   	}
 }

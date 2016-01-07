@@ -5,4 +5,5 @@ use LosBase\Controller\AbstractCrudController;
 
 class CrudController extends AbstractCrudController
 {
+	
 }
