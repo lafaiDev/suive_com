@@ -11,7 +11,7 @@ use LosBase\Entity\AbstractEntity;
 class Client extends AbstractEntity
 {
 	/**
-	 * @ORM\Column(type="string", length=254)
+	 * @ORM\Column(type="string", length=250)
 	 */
 	protected $name;
 	
